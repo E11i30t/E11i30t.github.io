@@ -1,0 +1,149 @@
+html body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #00000002;
+    background-image: url("images/BlueSky.jpg");
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 2px;
+    padding: 0px;
+}
+
+.logo {
+    top: 20px;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.greeting {
+    padding: 20px;
+    text-align: center;
+    font-family: Lora;
+    font-weight: 500;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+    font-family: Lora;
+    font-weight: 500;
+    font-style: italic;
+}
+
+h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.shop-links {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.shop-links span {
+    margin: 20px;
+}
+
+.shop-links img {
+    display: inline-block;
+    border-radius: 8px;
+    width: 230px;
+    height: 230px;
+}
+
+.shop-links p {
+    width: 230px;
+    line-height: 20px;
+    margin: 10px;
+}
+
+.shop-links a {
+    width: 240px;
+    display: block;
+    border-radius: 8px;
+    margin: 10px auto auto auto;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #1f504d;
+    color: white;
+    text-decoration: none;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+.shop-links a:active {
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    transform: scale(0.98);
+}
+
+.shop-links a:hover {
+    background-color: #501f22;
+}
+
+span p {
+    height: 60px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #1f504d;
+}
+
+.description {
+    position: relative;
+    top: 20px;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.description img {
+    border-radius: 8px;
+    width: 216px;
+    height: 180px;
+}
+
+.des-para {
+   display: flex;
+   justify-content: center;
+}
+
+.description p {
+    font-weight: normal;
+    line-height: 25px;
+    font-size: 18px;
+    width: 450px;
+    margin: 20px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    height: 130px;
+    background-color: rgb(48, 47, 47);
+}
+
+.footer ul {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.footer-links a {
+    font-size: 14px;
+    color: #e0efee;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 6px;
+}
+    
