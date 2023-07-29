@@ -1,0 +1,144 @@
+html {
+    margin: -22px auto;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    min-height: 500px;
+    background-color: rgba(0, 0, 0, 1);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header {
+    width: 100%;
+}
+
+.background {
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/interactive/resources/images/ai.jpg');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.header h2 {
+    font-weight: 500;
+    padding-bottom: 20px;
+    max-width: 40rem;
+    text-align: center;
+    margin: auto auto 0px auto;
+}
+
+.claims {
+    padding-top: 45px;
+    text-align: center;
+}
+
+ul {
+    padding: initial;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+
+h3 {
+    text-align: center;
+    width: 20rem;
+    margin: auto;
+}
+
+h4 {
+    text-align: center;
+}
+
+button {
+    border-radius: 15px;
+    height: 2.5rem;
+    width: 10rem;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.moan {
+    display: none;
+}
+
+.fakeform {
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 20rem;
+}
+
+label {
+    text-align: center;
+    display: block;
+    width: 250px;
+    margin: 10px auto;
+}
+
+input {
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    width: 220px;
+    margin: 10px auto;
+}
+
+.qoute1 {
+    margin: 30px auto;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.qoute2 {
+    margin: 30px auto;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+@media only screen and (max-width: 750px) {
+    .header h2 {
+        max-width: 30rem;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .qoute1 {
+        max-width: 330px;
+    }
+
+    .qoute2 {
+        max-width: 320px;
+    }
+
+    .header h2 {
+        max-width: 320px;
+    }
+}
