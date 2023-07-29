@@ -16,7 +16,8 @@ function changeBackground(){
     gullible.style.color = 'gold';
     main.style.display = 'none';
     moan.play();
-    window.scrollTo(0, 0):
+    window.scrollTo(0, 0);
 };
 
 joke.onclick = changeBackground;
+
