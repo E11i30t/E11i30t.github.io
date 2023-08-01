@@ -156,8 +156,8 @@ a button:hover {
     background-color: #202020;
     color: white;
     margin-top: 10px;
-    width: 50%;
-    aspect-ratio: 5 / 1;
+    width: 150px;
+    height: 60px;
 }
 
 .choices button:hover {
