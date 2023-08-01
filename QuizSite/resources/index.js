@@ -48,6 +48,7 @@ q1b1.onclick = function() {
     q1b4.disabled = true;
     //nextButton.hidden = false;
     q2.style.display  = "grid";
+    window.location.hash='q2';
 }
 
 q1b2.onclick = function() {
@@ -57,6 +58,7 @@ q1b2.onclick = function() {
     q1b4.disabled = true;
     //nextButton.hidden = false;
     q2.style.display  = "grid";
+    window.location.hash='q2';
 }
 
 q1b3.onclick = function() {
@@ -66,6 +68,7 @@ q1b3.onclick = function() {
     q1b4.disabled = true;
    // nextButton.hidden = false;
     q2.style.display  = "grid";
+    window.location.hash='q2';
 }
 
 q1b4.onclick = function() {
@@ -75,6 +78,7 @@ q1b4.onclick = function() {
     q1b1.disabled = true;
    // nextButton.hidden = false;
     q2.style.display  = "grid";
+    window.location.hash='q2';
 }
 
 q2b1.onclick = function() {
@@ -84,6 +88,7 @@ q2b1.onclick = function() {
     q2b4.disabled = true;
     //nextButton.hidden = false;
     q3.style.display  = "grid";
+    window.location.hash='q3';
 }
 
 q2b2.onclick = function() {
@@ -93,6 +98,7 @@ q2b2.onclick = function() {
     q2b4.disabled = true;
     //nextButton.hidden = false;
     q3.style.display  = "grid";
+    window.location.hash='q3';
 }
 
 q2b3.onclick = function() {
@@ -102,6 +108,7 @@ q2b3.onclick = function() {
     q2b4.disabled = true;
     //nextButton.hidden = false;
     q3.style.display  = "grid";
+    window.location.hash='q3';
 }
 
 q2b4.onclick = function() {
@@ -111,6 +118,7 @@ q2b4.onclick = function() {
     q2b2.disabled = true;
     //nextButton.hidden = false;
     q3.style.display  = "grid";
+    window.location.hash='q3';
 }
 
 q3b1.onclick = function() {
@@ -120,6 +128,7 @@ q3b1.onclick = function() {
     q3b2.disabled = true;
     //nextButton.hidden = false;
     q4.style.display  = "grid";
+    window.location.hash='q4';
 }
 
 q3b2.onclick = function() {
@@ -129,6 +138,7 @@ q3b2.onclick = function() {
     q3b1.disabled = true;
     //nextButton.hidden = false;
     q4.style.display  = "grid";
+    window.location.hash='q4';
 }
 
 q3b3.onclick = function() {
@@ -138,6 +148,7 @@ q3b3.onclick = function() {
     q3b2.disabled = true;
    // nextButton.hidden = false;
     q4.style.display  = "grid";
+    window.location.hash='q4';
 }
 
 q3b4.onclick = function() {
@@ -147,6 +158,7 @@ q3b4.onclick = function() {
     q3b2.disabled = true;
    // nextButton.hidden = false;
     q4.style.display  = "grid";
+    window.location.hash='q4';
 }
 
 q4b1.onclick = function() {
@@ -156,6 +168,7 @@ q4b1.onclick = function() {
     q4b2.disabled = true;
     //nextButton.hidden = false;
     q5.style.display  = "grid";
+    window.location.hash='q5';
 }
 
 q4b2.onclick = function() {
@@ -165,6 +178,7 @@ q4b2.onclick = function() {
     q4b2.disabled = true;
     //nextButton.hidden = false;
     q5.style.display  = "grid";
+    window.location.hash='q5';
 }
 
 q4b3.onclick = function() {
@@ -174,6 +188,7 @@ q4b3.onclick = function() {
     q4b2.disabled = true;
    // nextButton.hidden = false;
     q5.style.display  = "grid";
+    window.location.hash='q5';
 }
 
 q4b4.onclick = function() {
@@ -183,6 +198,7 @@ q4b4.onclick = function() {
     q4b2.disabled = true;
    // nextButton.hidden = false;
     q5.style.display  = "grid";
+    window.location.hash='q5';
 }
 
 q5b1.onclick = function() {
@@ -191,6 +207,7 @@ q5b1.onclick = function() {
     q5b3.disabled = true;
     q5b2.disabled = true;
     nextButton.hidden = false;
+    window.scrollTo(0, document.body.scrollHeight);
 }
 
 q5b2.onclick = function() {
@@ -199,6 +216,7 @@ q5b2.onclick = function() {
     q5b3.disabled = true;
     q5b1.disabled = true;
     nextButton.hidden = false;
+    window.scrollTo(0, document.body.scrollHeight);
 }
 
 q5b3.onclick = function() {
@@ -207,6 +225,7 @@ q5b3.onclick = function() {
     q5b1.disabled = true;
     q5b2.disabled = true;
     nextButton.hidden = false;
+    window.scrollTo(0, document.body.scrollHeight);
 }
 
 q5b4.onclick = function() {
@@ -215,6 +234,7 @@ q5b4.onclick = function() {
     q5b3.disabled = true;
     q5b2.disabled = true;
     nextButton.hidden = false;
+    window.scrollTo(0, document.body.scrollHeight);
 }
 
 nextButton.onclick = function() {
